@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title>Welkins Website</title> 
-       <link rel="stylesheet" href="css/mainstyle.css">
-        </head>
+
+<head>
+    <title>Welkins Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
 <body>
-    <header>
+    <!-- <header>
         <ul class="topnav">
             <img src="images/logo.png" alt="logo">
             <li> <a href="home_page.html"> Home</a> </li>
@@ -15,8 +20,112 @@
             <li> <a href="testimonial.html"> Testimonials</a> </li>
          <button class="cont_btn"> <a href="contact.html"> Contact Us </a> </button>
         </ul>
-    </header>
-    <br>
-    
+    </header> -->
+
+    <main>
+        <img id="samp" src="images/samp-logo-nobg.png" alt="logo">
+        <div id="headings">
+            <p id="top"></p>
+            <h1>heading h1</h1>
+            <h2>heading h2</h2>
+            <h3>heading h3</h3>
+            <h4>heading h4</h4>
+            <h5>heading h5</h5>
+            <h6>heading h6</h6>
+        </div>
+        <br>
+        <p class="one">The below text uses paragaraph tag along with formatting. </p>
+        <div id="format">
+            <h2>Formatting text: </h2>
+            <p>Here is some <b>bold</b> text.</p>
+            <p>Here is some <em>italics</em> text.</p>
+            <p>Here is some <u>underlined</u> text.</p>
+            <p>Here is some <sup>superscript</sup> text.</p>
+            <p> Here is some <sub> subscrpit</sub> text.</p>
+            <p>Here is <del>deleted</del> text.</p>
+        </div>
+        <div id="lists">
+            <h2> Unordered lists:</h2>
+            <ul class="ul">
+                <li>disc</li>
+                <li>dot</li>
+                <li>square</li>
+                <li>triangle</li>
+            </ul>
+            <h2>Ordered lsits:</h2>
+            <ol class="ul" type="a">
+                <li>numbers</li>
+                <li>small alphabets</li>
+                <li> <del>capital alphabets</del></li>
+                <li>roman numbers</li>
+            </ol>
+        </div>
+        <h2 class="forms"> Forms:</h2>
+        <form>
+            <p>Username <input placeholder="username"></p>
+            <p> Remeber the login details for this device <input type="checkbox"></p>
+            <P> SELECT BELOW AGE GROUP:</P>
+            <p> Minor (under 18): <input type="radio" name="age"> </p>
+            <p> Adult (over 18): <input type="radio" name="age"> </p>
+            <P> Favorite Cusine:</P>
+            <select>
+                <option>INDIAN</option>
+                <option>ITALIAN</option>
+                <option>KOREAN</option>
+                <option>JAPANESE</option>
+                <option>MEXICAN</option>
+
+            </select>
+            <P> <input type="submit" value="Confirm Order"></P>
+
+        </form>
+        <img src="images/food1.jpg" alt="representative photo" height="100" ; width="100">
+        <table>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>FAV DRINK</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Sam</td>
+                <td>coke </td>
+            </tr>
+            <tr>
+                <td> Robby</td>
+                <td> mixed fruit</td>
+            </tr>
+            <tr>
+                <td>Kristy</td>
+                <td> mojito </td>
+            </tr>
+            <tr>
+                <td>Stewy</td>
+                <td> orange juice </td>
+            </tr>
+            <tr>
+                <td> Anne</td>
+                <td> pineapple juice </td>
+            </tr>
+            <tr>
+                <td> Sky</td>
+                <td> lemonade </td>
+            </tr>
+            <tr>
+                <td>Dustin</td>
+                <td> apple juice </td>
+            </tr>
+        </table>
+        <h2> Uisng links</h2>
+        <p> Click on the picture below to move to the respective sites.</p>
+        <a href="https://www.wikipedia.org/"> <img src="images/wiki_logo.png" alt="wikipedia-logo"> </a>
+        <a href="https://www.google.co.in/"> <img src="images/google-logo.png" alt="google-logo"></a>
+        <a href="https://www.udemy.com/"> <img src="images/udemy-logo.png" alt="udemy-logo"></a>
+        <a href="file:///D:/XAMPP/htdocs/Aman/html%20(for%20practice%20codes)/html/html/index.html"> <img
+                src="images/welkins-logo.png"></a>
+        <button><a href="#top">TOP</a></button>
+    </main>
+
 </body>
+
 </html>

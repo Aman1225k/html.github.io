@@ -1,0 +1,123 @@
+/* heading */
+/* *{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    height: 76px;
+    width: 1110px;
+    padding: 0px 15px;
+    background-color: #ffffff;
+}
+header li a {
+    float: right;
+}
+header li{
+    list-style-type: none;
+    display: block;
+}
+.topnav li a:hover {
+background-color: rgb(139, 177, 164);
+
+}
+header li a {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    text-transform: uppercase;
+    font-size: 15px; 
+}
+
+.cont_btn {
+    padding: 8px 20px;
+    height: 38px;
+    width: 88px;
+    border-radius: 5px;
+    border: 2px;
+    font-size: 15px; 
+    text-align: center;
+}
+
+ul {
+    display: flex;
+} */
+/* heading end */
+
+/* main */
+
+#format {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #headings {
+      color: blueviolet;
+      background-color: antiquewhite;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+  }
+  #format {
+      color: rgb(122, 4, 63);
+      background-color: rgb(163, 235, 248);
+      text-align: center;
+      
+  }
+  #lists {
+      
+      width: 200px;
+      background-color: rgb(188, 243, 253);
+      color: blue;
+      border-radius: 20px;
+      text-align: center;
+      display: block;
+      margin: auto;
+  }
+  .ul {
+      text-align: left;
+  }
+  
+  button a{
+      text-decoration: none;
+  }
+  button a:hover{
+      
+      color: black;
+  }
+  button{
+      text-decoration: aqua;
+      border-radius: 100px;
+      border-color: rgba(250, 245, 245, 0);
+      border-width: 1px;
+      text-shadow: 10px;
+      float: right;
+      cursor: pointer;
+      background-color: rgb(248, 29, 29);
+      width: 36px;
+      height: 36px;
+  }
+  button a:link{
+      color: rgb(0, 0, 0);
+  }
+  button a:visited{
+      color: rgb(245, 245, 247);
+  }
+  button:hover{
+      box-shadow: 5px 5px 6px rgb(104, 104, 104);
+  }
+  #top{
+      text-align: left;
+  }
+  #samp{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      transition: 1s linear;
+  }
+  #samp:hover{
+      transform: translate(40px, 40px);
+  }
+
+  /* main end */
